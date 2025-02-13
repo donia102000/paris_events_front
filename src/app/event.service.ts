@@ -8,7 +8,7 @@ import { AddressCountDTO } from './models/address-count-dto.model';
 })
 export class EventService {
 
-  private apiUrl = 'http://localhost:8080/events/address-price'; // URL de l'API backend
+  private apiUrl = 'http://localhost:8089/events/address-price'; // URL de l'API backend
 
   constructor(private http: HttpClient) {}
 
